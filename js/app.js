@@ -55,7 +55,9 @@ function render() {
     messageEl.textContent = `This game is a tie!`
   } else {
     messageEl.textContent = `It's player ${turn === 1 ? 'O' : 'X'} that wins the game!`
+    confetti.start(2000)
   }
+  
 }
 
 function handleClick(evt) {
@@ -83,4 +85,6 @@ function getWinner() {
     } 
   }
   return null
+
+  
 }
