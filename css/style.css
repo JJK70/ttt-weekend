@@ -1,8 +1,7 @@
 body {
   background-color: #F8F8F8;
 /* Use a system font, if none are available use an available sans-sarif   font */
-font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-  Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+font-family: 'Gloria Hallelujah', cursive;
 margin: 0;
 height: 100vh;
 display: flex;
