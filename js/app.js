@@ -17,7 +17,6 @@ let board, turn, winner
 /*------------------------ Cached Element References ------------------------*/
 const squareEls = document.querySelectorAll('.game-square')
 const messageEl = document.querySelector('#message')
-// console.log(squareEls)
 const resetBtnEl = document.querySelector('#reset-button')
 
 /*----------------------------- Event Listeners -----------------------------*/
