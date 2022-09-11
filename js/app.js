@@ -83,7 +83,8 @@ function getWinner() {
       return -1
     } 
   }
+  if (!board.includes(null)){
+    return "T"
+  }
   return null
-
-  
 }
